@@ -1,4 +1,3 @@
-# Genetic algorithm for Risk
+# Graph Algorithms for Risk ![](https://api.travis-ci.com/mikeizbicki/risk.svg?branch=master)
 
-Code for playing around with Risk and genetic algoritms.
-See also this [blog](https://blog.godatadriven.com/risk-analysis).
+This is a homework for CMC's [CS46: data structures](https://github.com/mikeizbicki/cmc-csci046) course.
