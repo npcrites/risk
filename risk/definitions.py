@@ -1,4 +1,4 @@
-import pandas as pd
+#import pandas as pd
 
 territory_names = {
     0: 'afghanistan',
@@ -132,10 +132,10 @@ territory_locations = {
     40: [280, 400],
     41: [1390, 135]}
 
-territory_neighbors_df = pd.DataFrame(
-    [(territory, neighbor) for territory, neighbors in territory_neighbors.items() for neighbor in neighbors],
-    columns=['territory_id', 'neighbor_id']
-)
+#territory_neighbors_df = pd.DataFrame(
+    #[(territory, neighbor) for territory, neighbors in territory_neighbors.items() for neighbor in neighbors],
+    #columns=['territory_id', 'neighbor_id']
+#)
 
 continent_names = {
     0: 'africa',
