@@ -1,2 +1,2 @@
-matplotlib==2.2.2
+matplotlib
 heapdict==1.0.1
