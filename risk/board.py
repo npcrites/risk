@@ -449,6 +449,7 @@ class Board(object):
             self.plot_single(t.territory_id, t.player_id, t.armies)
 
         if not filename:
+            plt.tight_layout()
             plt.show()
         else:
             plt.tight_layout()
@@ -468,17 +469,17 @@ class Board(object):
         plt.scatter(
             [coor[0]*1.2], 
             [coor[1]*1.22], 
-            s=100, 
+            s=400, 
             c=risk.definitions.player_colors[player_id],
             zorder=2
             )
         plt.text(
             coor[0]*1.2, 
-            coor[1]*1.22 + 25, 
+            coor[1]*1.22 + 15, 
             s=str(armies),
             color='black' if risk.definitions.player_colors[player_id] in ['yellow', 'pink'] else 'white',
             ha='center', 
-            size=7
+            size=15
             )
 
     # ==================== #
